@@ -24,3 +24,11 @@ h2 {
   opacity: 0.7;
   max-width: 300px;
 }
+
+.logo {
+  max-width: 70px;
+}
+
+.nav {
+  padding: 20px 0px;
+}
