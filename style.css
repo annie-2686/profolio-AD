@@ -18,19 +18,16 @@ body {
 h1,
 p {
   font-size: 18px;
-  margin-left: 150px;
 }
 
 h2 {
   font-size: 60px;
   font-weight: bold;
-  margin-left: 150px;
 }
 
 .mugshot {
   opacity: 0.7;
   max-width: 200px;
-  margin-left: 150px;
 }
 
 .logo {
@@ -53,4 +50,18 @@ h2 {
 .active:hover,
 .nav-link:hover {
   color: black;
+}
+
+.contacts {
+  color: grey;
+
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.contacts:hover {
+  color: black;
+}
+footer {
+  margin-top: 50px;
 }
