@@ -1,5 +1,8 @@
 :root {
   --basic-color: #f0f5f9;
+  --third-color:  #52616b; 
+  --fourth-color: #1e2022; 
+}
 }
 
 body {
@@ -44,23 +47,23 @@ h2 {
 
 .active,
 .nav-link {
-  color: grey;
+  color:var(--third-color); 
 }
 
 .active:hover,
 .nav-link:hover {
-  color: black;
+  color: var(--fourth-color);
 }
 
 .contacts {
-  color: grey;
+  color:var(--third-color); 
 
   font-size: 15px;
   text-decoration: none;
 }
 
 .contacts:hover {
-  color: black;
+ color: var(--fourth-color);
 }
 footer {
   margin-top: 50px;
