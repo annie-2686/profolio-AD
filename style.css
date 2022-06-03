@@ -33,6 +33,7 @@ h2 {
   max-width: 250px;
   padding-right: 20px;
  
+ 
 }
 
 .logo {
@@ -71,8 +72,28 @@ footer {
   margin-top: 50px;
 }
 
-.projectlists {font-size: 15px;
+.projectlists, .projectliststwo {font-size: 15px;
 line-height: 40px;
  list-style-type: none;
+}
+
+@media (max-width: 768px) { 
+
+    h2 {font-size: 20px;
+   }
+    h1,p {font-size: 15px;
+   }
+
+.aboutinfo {font-size: 2px;}
+
+.nav-item {text-align: center;}
+
+  .projectliststwo,.logo {
+    display: none;
+  }
+  .container {text-align: center;
+  }
+ .fs-6, li {font-size: 15px !important;}
+
 }
 
